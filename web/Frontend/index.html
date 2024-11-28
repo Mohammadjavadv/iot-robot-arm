@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Robot Arm Control Panel</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    
+    <div class="container">
+        <section class="robot-wrapper">
+            <h1>Robot Arm Control Panel</h1>
+            <iframe class="online-Camera" src="" frameborder="0" title="Camera"></iframe>
+            <div class="robot-control-wrapper">
+                <div class="button-wrapper">
+                    <img class="button-img" src="images/left-top.png" alt="" id="leftTop">
+                    <img class="button-img forwarrd-button" src="images/forward.png" alt="" id="forward">
+                    <img class="button-img" src="images/right-top.png" alt="" id="rightTop">
+                </div>
+                <div class="button-wrapper">
+                    <img class="button-img" src="images/left.png" alt="" id="left">
+                    <img class="car-icon" src="images/Robot.png" alt="">
+                    <img class="button-img" src="images/right.png" alt="" id="right">
+                </div>
+                <div class="button-wrapper">
+                    <img class="button-img" src="images/left-bottom.png" alt="" id="leftBottom">
+                    <img class="button-img" src="images/backward.png" alt="" id="backward">
+                    <img class="button-img" src="images/right-bottom.png" alt="" id="rightBottom">
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>

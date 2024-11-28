@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Inter Medium";
+    src: url(Fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url(Fonts/Inter-Regular.ttf);
+}
+
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+body {
+    font-family: "Inter Medium";
+}
+
+.robot-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.online-Camera {
+    width: 300px;
+    height: 225px;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.robot-control-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-img{
+    width: 5rem;
+    cursor: pointer;
+}
+
+.button-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.car-icon{
+    width: 10rem;
+
+}
